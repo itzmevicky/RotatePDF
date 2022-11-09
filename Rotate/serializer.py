@@ -5,7 +5,6 @@ class PDFRotateSerializer(serializers.Serializer):
         ('90 Degree'),
         ('180 Degree'),
         ('270 Degree'),
-        ('360 Degree'),
     )
 
     Upload_File = serializers.FileField(use_url=False)
